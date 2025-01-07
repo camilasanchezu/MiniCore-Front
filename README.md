@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MiniCore MVC
 
-## Getting Started
+## Descripción del Proyecto
+Este proyecto consiste en el desarrollo de una solución para una empresa que desea visualizar cuánto gasta cada departamento en un rango de fechas específico. La base de datos relacional utilizada está en **SQL Server** y consta de tres tablas principales:
 
-First, run the development server:
+1. **Empleado**: Contiene los datos de los empleados de la empresa.
+2. **Gasto**: Registra los gastos generados por los empleados.
+3. **Departamento**: Define los departamentos de la empresa.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Funcionalidad Principal
+La funcionalidad central del proyecto es permitir a los usuarios realizar un filtrado de los gastos por departamento, según un rango de fechas que ellos seleccionen. Esto les permitirá ver el total de los gastos generados por cada departamento en el periodo seleccionado.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Backend
+- **ASP.NET Core**: Framework utilizado para desarrollar la API RESTful que gestiona la lógica de negocio, maneja las solicitudes del cliente y se conecta a la base de datos SQL Server.
+- **SQL Server**: Motor de base de datos relacional utilizado para almacenar la información de empleados, departamentos y gastos.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend
+- **Next.js**: Framework de React utilizado para crear una interfaz de usuario dinámica y moderna.
+- **CSS Modules**: Para el diseño y estilización del frontend.
 
-## Learn More
+## Información Adicional
 
-To learn more about Next.js, take a look at the following resources:
+### 1. Información de Base del MVC
+Para desarrollar la aplicación, se utilizó el patrón **MVC** (Modelo-Vista-Controlador) en el backend. A continuación, algunos recursos útiles que fueron consultados durante el desarrollo del proyecto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Documentación oficial de ASP.NET Core MVC**: [Link a la documentación oficial](https://learn.microsoft.com/aspnet/core/mvc)  
+- **Video tutorial de CRUD en ASP.NET Core**:   
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 2. Información de Contacto
+**Nombre:** Camila Sánchez  
+**Correo:** camilasanchezurresta111@gmail.com  
+**Teléfono:** 098 050 9556
