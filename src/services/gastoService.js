@@ -1,11 +1,11 @@
 // services/gastosService.js
 
-const API_BASE_URL = "https://localhost:7047/api/Gastos";
+const API_BASE_URL = "https://minicoreback.azurewebsites.net";
 
 export const filtrarPorFechas = async (fechaInicio, fechaFin) => {
   try {
     const response = await fetch(
-      `${API_BASE_URL}/FiltrarPorFechas?fechaInicio=${fechaInicio}&fechaFin=${fechaFin}`
+      `${API_BASE_URL}/api/Gastos/FiltrarPorFechas?fechaInicio=${fechaInicio}&fechaFin=${fechaFin}`
     );
 
     if (!response.ok) {
