@@ -26,7 +26,7 @@ La funcionalidad central del proyecto es permitir a los usuarios realizar un fil
 Para desarrollar la aplicación, se utilizó el patrón **MVC** (Modelo-Vista-Controlador) en el backend. A continuación, algunos recursos útiles que fueron consultados durante el desarrollo del proyecto:
 
 - **Documentación oficial de ASP.NET Core MVC**: [Link a la documentación oficial](https://learn.microsoft.com/aspnet/core/mvc)  
-- **Video tutorial de CRUD en ASP.NET Core**:   
+- **Video tutorial de CRUD en ASP.NET Core**:   [https://youtu.be/N5uN_Yd-6lc]
 
 ### 2. Información de Contacto
 **Nombre:** Camila Sánchez  
