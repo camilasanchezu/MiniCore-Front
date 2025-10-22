@@ -6,15 +6,37 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "test": "jest --ci --reporters=default --reporters=jest-junit",
+    "lint": "eslint services --ext .js",
+    "lint:report": "eslint services --ext .js -f checkstyle -o TestResult/eslint-report.xml"
   },
   "dependencies": {
+    "next": "15.1.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.2"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "jest": "^30.2.0",
+    "jest-junit": "^16.0.0",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
-  }
+    "tailwindcss": "^3.4.1",
+    "typescript-eslint": "^8.46.2"
+  },
+  "description": "Este proyecto consiste en el desarrollo de una solución para una empresa que desea visualizar cuánto gasta cada departamento en un rango de fechas específico. La base de datos relacional utilizada está en **SQL Server** y consta de tres tablas principales:",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camilasanchezu/MiniCore-Front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/camilasanchezu/MiniCore-Front/issues"
+  },
+  "homepage": "https://github.com/camilasanchezu/MiniCore-Front#readme"
 }
